@@ -80,6 +80,8 @@ MLP implementation provides a flexible framework for neural network training wit
 - Forward pass caches $A^{[l-1]}$ and $Z^{[l]}$ for backward pass
 - Activation gradients $\frac{\partial \mathcal{L}}{\partial A^{[l-1]}}$ are computed on-the-fly
 
+## Mathematical foundation
+
 ### Activation functions
 
 | Concept                   | Link                                                                                                     | ***TL;DR***                                                       |
